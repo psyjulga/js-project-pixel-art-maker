@@ -1,15 +1,8 @@
-// Select color input
-let colorInput = document.getElementById("colorPicker").value;
-// color gets saved as hex value
-
-// Select size input
-
 function makeGrid(event) {
   event.preventDefault();
-  // getting access to input values and the table tag
+  // getting access to size input values
   let inputCols = document.getElementById("inputWidth").value;
   let inputRows = document.getElementById("inputHeight").value;
-  let canvasTable = document.getElementById("pixelCanvas");
 
   // when form is submitted all children get removed (if any)
   while (canvasTable.firstChild) {
@@ -27,6 +20,18 @@ function makeGrid(event) {
   } // automatic return??
 }
 
-// When size is submitted by the user, call makeGrid()
+// select color input and set background color
+function colorBackground(event) {
+  event.preventDefault();
+  let colorInput = document.getElementById("colorPicker").value;
+  event.target.style.backgroundColor = colorInput;
+}
+
+// select size input
+// when size is submitted by the user, call makeGrid()
+let canvasTable = document.getElementById("pixelCanvas");
 let inputForm = document.getElementById("sizePicker");
+
+// add event listeners
 inputForm.addEventListener("submit", makeGrid);
+canvasTable.addEventListener("click", colorBackground);
