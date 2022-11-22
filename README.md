@@ -12,4 +12,4 @@ loops to make this Pixel Art Maker work!
 
 ## Do you feel like painting? 🎨
 
-['https://pixel-art-maker-project.netlify.app/'(https://pixel-art-maker-project.netlify.app/'](https://pixel-art-maker-project.netlify.app/'(https://pixel-art-maker-project.netlify.app/)
+[https://pixel-art-maker-project.netlify.app/](https://pixel-art-maker-project.netlify.app/)
