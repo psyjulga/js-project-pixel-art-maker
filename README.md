@@ -1,16 +1,15 @@
-# Pixel Art Maker Project
+# My first Masterschool JavaScript Project: Pixel Art Maker
 
-## Table of Contents
+```
+After the game is before the game!
+In December 2021 I started the Masterschool Web Development
+coding bootcamp. What a crazy journey lying ahead!
+The first course provided HTML, CSS and JavaScript
+fundamentals again, but way more detailed than I knew before.
+So the JS project was a bit tricky, as we had to use nested
+loops to make this Pixel Art Maker work!
+```
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## Do you feel like painting? 🎨
 
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+['https://pixel-art-maker-project.netlify.app/'(https://pixel-art-maker-project.netlify.app/)
